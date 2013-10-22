@@ -101,6 +101,7 @@ void Sponge::absorb(const vector<UINT8>& input, unsigned int lengthInBits)
         cout << "       - The absorbing phase is NOT over yet.\n";
     absorbQueue.append(input, lengthInBits);
     while(absorbQueue.firstBlockIsWhole()) {
+        cout << "       - firstBlock is whole.\n";
         absorbBlock(absorbQueue.firstBlock());
         absorbQueue.removeFirstBlock();
     }
