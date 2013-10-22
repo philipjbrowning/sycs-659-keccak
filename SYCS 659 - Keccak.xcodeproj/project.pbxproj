@@ -9,6 +9,35 @@
 /* Begin PBXBuildFile section */
 		8BF539111816DD09001F2F5C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF539101816DD09001F2F5C /* main.cpp */; };
 		8BF539131816DD09001F2F5C /* SYCS_659___Keccak.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8BF539121816DD09001F2F5C /* SYCS_659___Keccak.1 */; };
+		8BF539551816DD68001F2F5C /* duplex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF539191816DD68001F2F5C /* duplex.cpp */; };
+		8BF539561816DD68001F2F5C /* genKATShortMsg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF5391B1816DD68001F2F5C /* genKATShortMsg.cpp */; };
+		8BF539571816DD68001F2F5C /* Keccak-f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF5391C1816DD68001F2F5C /* Keccak-f.cpp */; };
+		8BF539581816DD68001F2F5C /* Keccak-f25LUT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF5391E1816DD68001F2F5C /* Keccak-f25LUT.cpp */; };
+		8BF539591816DD68001F2F5C /* Keccak-fAffineBases.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF539201816DD68001F2F5C /* Keccak-fAffineBases.cpp */; };
+		8BF5395A1816DD68001F2F5C /* Keccak-fCodeGen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF539221816DD68001F2F5C /* Keccak-fCodeGen.cpp */; };
+		8BF5395B1816DD68001F2F5C /* Keccak-fDCEquations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF539241816DD68001F2F5C /* Keccak-fDCEquations.cpp */; };
+		8BF5395C1816DD68001F2F5C /* Keccak-fDCLC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF539261816DD68001F2F5C /* Keccak-fDCLC.cpp */; };
+		8BF5395D1816DD68001F2F5C /* Keccak-fDisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF539281816DD68001F2F5C /* Keccak-fDisplay.cpp */; };
+		8BF5395E1816DD68001F2F5C /* Keccak-fEquations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF5392A1816DD68001F2F5C /* Keccak-fEquations.cpp */; };
+		8BF5395F1816DD68001F2F5C /* Keccak-fParity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF5392C1816DD68001F2F5C /* Keccak-fParity.cpp */; };
+		8BF539601816DD68001F2F5C /* Keccak-fParityBounds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF5392E1816DD68001F2F5C /* Keccak-fParityBounds.cpp */; };
+		8BF539611816DD68001F2F5C /* Keccak-fParts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF539301816DD68001F2F5C /* Keccak-fParts.cpp */; };
+		8BF539621816DD68001F2F5C /* Keccak-fPositions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF539321816DD68001F2F5C /* Keccak-fPositions.cpp */; };
+		8BF539631816DD68001F2F5C /* Keccak-fPropagation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF539341816DD68001F2F5C /* Keccak-fPropagation.cpp */; };
+		8BF539641816DD68001F2F5C /* Keccak-fState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF539361816DD68001F2F5C /* Keccak-fState.cpp */; };
+		8BF539651816DD68001F2F5C /* Keccak-fTrailCore3Rounds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF539381816DD68001F2F5C /* Keccak-fTrailCore3Rounds.cpp */; };
+		8BF539661816DD68001F2F5C /* Keccak-fTrailCoreInKernelAtC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF5393A1816DD68001F2F5C /* Keccak-fTrailCoreInKernelAtC.cpp */; };
+		8BF539671816DD68001F2F5C /* Keccak-fTrailCoreParity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF5393C1816DD68001F2F5C /* Keccak-fTrailCoreParity.cpp */; };
+		8BF539681816DD68001F2F5C /* Keccak-fTrailCoreRows.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF5393E1816DD68001F2F5C /* Keccak-fTrailCoreRows.cpp */; };
+		8BF539691816DD68001F2F5C /* Keccak-fTrailExtension.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF539401816DD68001F2F5C /* Keccak-fTrailExtension.cpp */; };
+		8BF5396A1816DD68001F2F5C /* Keccak-fTrails.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF539421816DD68001F2F5C /* Keccak-fTrails.cpp */; };
+		8BF5396B1816DD68001F2F5C /* Keccak.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF539441816DD68001F2F5C /* Keccak.cpp */; };
+		8BF5396C1816DD68001F2F5C /* KeccakCrunchyContest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF539461816DD68001F2F5C /* KeccakCrunchyContest.cpp */; };
+		8BF5396D1816DD68001F2F5C /* padding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF539491816DD68001F2F5C /* padding.cpp */; };
+		8BF5396E1816DD68001F2F5C /* progress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF5394B1816DD68001F2F5C /* progress.cpp */; };
+		8BF5396F1816DD68001F2F5C /* sponge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF5394D1816DD68001F2F5C /* sponge.cpp */; };
+		8BF539701816DD68001F2F5C /* spongetree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF5394F1816DD68001F2F5C /* spongetree.cpp */; };
+		8BF539711816DD68001F2F5C /* transformations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BF539511816DD68001F2F5C /* transformations.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +57,107 @@
 		8BF5390D1816DD09001F2F5C /* SYCS 659 - Keccak */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SYCS 659 - Keccak"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF539101816DD09001F2F5C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8BF539121816DD09001F2F5C /* SYCS_659___Keccak.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "SYCS_659___Keccak.1"; sourceTree = "<group>"; };
+		8BF539191816DD68001F2F5C /* duplex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = duplex.cpp; sourceTree = "<group>"; };
+		8BF5391A1816DD68001F2F5C /* duplex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = duplex.h; sourceTree = "<group>"; };
+		8BF5391B1816DD68001F2F5C /* genKATShortMsg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = genKATShortMsg.cpp; sourceTree = "<group>"; };
+		8BF5391C1816DD68001F2F5C /* Keccak-f.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-f.cpp"; sourceTree = "<group>"; };
+		8BF5391D1816DD68001F2F5C /* Keccak-f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keccak-f.h"; sourceTree = "<group>"; };
+		8BF5391E1816DD68001F2F5C /* Keccak-f25LUT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-f25LUT.cpp"; sourceTree = "<group>"; };
+		8BF5391F1816DD68001F2F5C /* Keccak-f25LUT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keccak-f25LUT.h"; sourceTree = "<group>"; };
+		8BF539201816DD68001F2F5C /* Keccak-fAffineBases.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fAffineBases.cpp"; sourceTree = "<group>"; };
+		8BF539211816DD68001F2F5C /* Keccak-fAffineBases.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keccak-fAffineBases.h"; sourceTree = "<group>"; };
+		8BF539221816DD68001F2F5C /* Keccak-fCodeGen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fCodeGen.cpp"; sourceTree = "<group>"; };
+		8BF539231816DD68001F2F5C /* Keccak-fCodeGen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keccak-fCodeGen.h"; sourceTree = "<group>"; };
+		8BF539241816DD68001F2F5C /* Keccak-fDCEquations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fDCEquations.cpp"; sourceTree = "<group>"; };
+		8BF539251816DD68001F2F5C /* Keccak-fDCEquations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keccak-fDCEquations.h"; sourceTree = "<group>"; };
+		8BF539261816DD68001F2F5C /* Keccak-fDCLC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fDCLC.cpp"; sourceTree = "<group>"; };
+		8BF539271816DD68001F2F5C /* Keccak-fDCLC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keccak-fDCLC.h"; sourceTree = "<group>"; };
+		8BF539281816DD68001F2F5C /* Keccak-fDisplay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fDisplay.cpp"; sourceTree = "<group>"; };
+		8BF539291816DD68001F2F5C /* Keccak-fDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keccak-fDisplay.h"; sourceTree = "<group>"; };
+		8BF5392A1816DD68001F2F5C /* Keccak-fEquations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fEquations.cpp"; sourceTree = "<group>"; };
+		8BF5392B1816DD68001F2F5C /* Keccak-fEquations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keccak-fEquations.h"; sourceTree = "<group>"; };
+		8BF5392C1816DD68001F2F5C /* Keccak-fParity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fParity.cpp"; sourceTree = "<group>"; };
+		8BF5392D1816DD68001F2F5C /* Keccak-fParity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keccak-fParity.h"; sourceTree = "<group>"; };
+		8BF5392E1816DD68001F2F5C /* Keccak-fParityBounds.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fParityBounds.cpp"; sourceTree = "<group>"; };
+		8BF5392F1816DD68001F2F5C /* Keccak-fParityBounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keccak-fParityBounds.h"; sourceTree = "<group>"; };
+		8BF539301816DD68001F2F5C /* Keccak-fParts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fParts.cpp"; sourceTree = "<group>"; };
+		8BF539311816DD68001F2F5C /* Keccak-fParts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keccak-fParts.h"; sourceTree = "<group>"; };
+		8BF539321816DD68001F2F5C /* Keccak-fPositions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fPositions.cpp"; sourceTree = "<group>"; };
+		8BF539331816DD68001F2F5C /* Keccak-fPositions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keccak-fPositions.h"; sourceTree = "<group>"; };
+		8BF539341816DD68001F2F5C /* Keccak-fPropagation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fPropagation.cpp"; sourceTree = "<group>"; };
+		8BF539351816DD68001F2F5C /* Keccak-fPropagation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keccak-fPropagation.h"; sourceTree = "<group>"; };
+		8BF539361816DD68001F2F5C /* Keccak-fState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fState.cpp"; sourceTree = "<group>"; };
+		8BF539371816DD68001F2F5C /* Keccak-fState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keccak-fState.h"; sourceTree = "<group>"; };
+		8BF539381816DD68001F2F5C /* Keccak-fTrailCore3Rounds.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fTrailCore3Rounds.cpp"; sourceTree = "<group>"; };
+		8BF539391816DD68001F2F5C /* Keccak-fTrailCore3Rounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keccak-fTrailCore3Rounds.h"; sourceTree = "<group>"; };
+		8BF5393A1816DD68001F2F5C /* Keccak-fTrailCoreInKernelAtC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fTrailCoreInKernelAtC.cpp"; sourceTree = "<group>"; };
+		8BF5393B1816DD68001F2F5C /* Keccak-fTrailCoreInKernelAtC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keccak-fTrailCoreInKernelAtC.h"; sourceTree = "<group>"; };
+		8BF5393C1816DD68001F2F5C /* Keccak-fTrailCoreParity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fTrailCoreParity.cpp"; sourceTree = "<group>"; };
+		8BF5393D1816DD68001F2F5C /* Keccak-fTrailCoreParity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keccak-fTrailCoreParity.h"; sourceTree = "<group>"; };
+		8BF5393E1816DD68001F2F5C /* Keccak-fTrailCoreRows.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fTrailCoreRows.cpp"; sourceTree = "<group>"; };
+		8BF5393F1816DD68001F2F5C /* Keccak-fTrailCoreRows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keccak-fTrailCoreRows.h"; sourceTree = "<group>"; };
+		8BF539401816DD68001F2F5C /* Keccak-fTrailExtension.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fTrailExtension.cpp"; sourceTree = "<group>"; };
+		8BF539411816DD68001F2F5C /* Keccak-fTrailExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keccak-fTrailExtension.h"; sourceTree = "<group>"; };
+		8BF539421816DD68001F2F5C /* Keccak-fTrails.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Keccak-fTrails.cpp"; sourceTree = "<group>"; };
+		8BF539431816DD68001F2F5C /* Keccak-fTrails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Keccak-fTrails.h"; sourceTree = "<group>"; };
+		8BF539441816DD68001F2F5C /* Keccak.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Keccak.cpp; sourceTree = "<group>"; };
+		8BF539451816DD68001F2F5C /* Keccak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keccak.h; sourceTree = "<group>"; };
+		8BF539461816DD68001F2F5C /* KeccakCrunchyContest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KeccakCrunchyContest.cpp; sourceTree = "<group>"; };
+		8BF539471816DD68001F2F5C /* KeccakCrunchyContest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeccakCrunchyContest.h; sourceTree = "<group>"; };
+		8BF539481816DD68001F2F5C /* KeccakTools.dox */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KeccakTools.dox; sourceTree = "<group>"; };
+		8BF539491816DD68001F2F5C /* padding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = padding.cpp; sourceTree = "<group>"; };
+		8BF5394A1816DD68001F2F5C /* padding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = padding.h; sourceTree = "<group>"; };
+		8BF5394B1816DD68001F2F5C /* progress.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = progress.cpp; sourceTree = "<group>"; };
+		8BF5394C1816DD68001F2F5C /* progress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = progress.h; sourceTree = "<group>"; };
+		8BF5394D1816DD68001F2F5C /* sponge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sponge.cpp; sourceTree = "<group>"; };
+		8BF5394E1816DD68001F2F5C /* sponge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sponge.h; sourceTree = "<group>"; };
+		8BF5394F1816DD68001F2F5C /* spongetree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = spongetree.cpp; sourceTree = "<group>"; };
+		8BF539501816DD68001F2F5C /* spongetree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spongetree.h; sourceTree = "<group>"; };
+		8BF539511816DD68001F2F5C /* transformations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = transformations.cpp; sourceTree = "<group>"; };
+		8BF539521816DD68001F2F5C /* transformations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transformations.h; sourceTree = "<group>"; };
+		8BF539531816DD68001F2F5C /* translationsymmetry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = translationsymmetry.h; sourceTree = "<group>"; };
+		8BF539541816DD68001F2F5C /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		8BF539731816DE00001F2F5C /* DCKeccakF-25-trailcores.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "DCKeccakF-25-trailcores.txt"; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/DCKeccakF-25-trailcores.txt"; sourceTree = "<group>"; };
+		8BF539741816DE00001F2F5C /* Eq-KeccakF-25-12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Eq-KeccakF-25-12.txt"; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/Eq-KeccakF-25-12.txt"; sourceTree = "<group>"; };
+		8BF539751816DE00001F2F5C /* Eq-KeccakF-50-14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Eq-KeccakF-50-14.txt"; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/Eq-KeccakF-50-14.txt"; sourceTree = "<group>"; };
+		8BF539761816DE00001F2F5C /* Eq-KeccakF-100-16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Eq-KeccakF-100-16.txt"; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/Eq-KeccakF-100-16.txt"; sourceTree = "<group>"; };
+		8BF539771816DE00001F2F5C /* Eq-KeccakF-200-18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Eq-KeccakF-200-18.txt"; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/Eq-KeccakF-200-18.txt"; sourceTree = "<group>"; };
+		8BF539781816DE00001F2F5C /* Eq-KeccakF-400-20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Eq-KeccakF-400-20.txt"; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/Eq-KeccakF-400-20.txt"; sourceTree = "<group>"; };
+		8BF539791816DE00001F2F5C /* Eq-KeccakF-800-22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Eq-KeccakF-800-22.txt"; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/Eq-KeccakF-800-22.txt"; sourceTree = "<group>"; };
+		8BF5397A1816DE00001F2F5C /* Eq-KeccakF-1600-24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Eq-KeccakF-1600-24.txt"; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/Eq-KeccakF-1600-24.txt"; sourceTree = "<group>"; };
+		8BF5397B1816DE00001F2F5C /* Keccak-f-Chi-DCLC.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Keccak-f-Chi-DCLC.txt"; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/Keccak-f-Chi-DCLC.txt"; sourceTree = "<group>"; };
+		8BF5397C1816DE00001F2F5C /* KeccakF-25-12.LUT */ = {isa = PBXFileReference; lastKnownFileType = file; name = "KeccakF-25-12.LUT"; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/KeccakF-25-12.LUT"; sourceTree = "<group>"; };
+		8BF5397D1816DE00001F2F5C /* KeccakF-25-lambda.cache */ = {isa = PBXFileReference; lastKnownFileType = file; name = "KeccakF-25-lambda.cache"; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/KeccakF-25-lambda.cache"; sourceTree = "<group>"; };
+		8BF5397E1816DE00001F2F5C /* KeccakF-200-lambda.cache */ = {isa = PBXFileReference; lastKnownFileType = file; name = "KeccakF-200-lambda.cache"; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/KeccakF-200-lambda.cache"; sourceTree = "<group>"; };
+		8BF5397F1816DE00001F2F5C /* KeccakF-1600-32.macros */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "KeccakF-1600-32.macros"; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/KeccakF-1600-32.macros"; sourceTree = "<group>"; };
+		8BF539801816DE00001F2F5C /* KeccakF-1600-64.macros */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "KeccakF-1600-64.macros"; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/KeccakF-1600-64.macros"; sourceTree = "<group>"; };
+		8BF539811816DE00001F2F5C /* KeccakF-1600-simd64.macros */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "KeccakF-1600-simd64.macros"; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/KeccakF-1600-simd64.macros"; sourceTree = "<group>"; };
+		8BF539821816DE00001F2F5C /* ShortMsgKAT_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortMsgKAT_0.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortMsgKAT_0.txt"; sourceTree = "<group>"; };
+		8BF539831816DE00001F2F5C /* ShortMsgKAT_224.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortMsgKAT_224.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortMsgKAT_224.txt"; sourceTree = "<group>"; };
+		8BF539841816DE00001F2F5C /* ShortMsgKAT_256.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortMsgKAT_256.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortMsgKAT_256.txt"; sourceTree = "<group>"; };
+		8BF539851816DE00001F2F5C /* ShortMsgKAT_384.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortMsgKAT_384.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortMsgKAT_384.txt"; sourceTree = "<group>"; };
+		8BF539861816DE00001F2F5C /* ShortMsgKAT_512.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortMsgKAT_512.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortMsgKAT_512.txt"; sourceTree = "<group>"; };
+		8BF539871816DE00001F2F5C /* ShortMsgKAT_r40c160.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortMsgKAT_r40c160.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortMsgKAT_r40c160.txt"; sourceTree = "<group>"; };
+		8BF539881816DE00001F2F5C /* ShortMsgKAT_r128c272.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortMsgKAT_r128c272.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortMsgKAT_r128c272.txt"; sourceTree = "<group>"; };
+		8BF539891816DE00001F2F5C /* ShortMsgKAT_r144c256.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortMsgKAT_r144c256.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortMsgKAT_r144c256.txt"; sourceTree = "<group>"; };
+		8BF5398A1816DE00001F2F5C /* ShortMsgKAT_r256c544.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortMsgKAT_r256c544.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortMsgKAT_r256c544.txt"; sourceTree = "<group>"; };
+		8BF5398B1816DE00001F2F5C /* ShortMsgKAT_r512c288.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortMsgKAT_r512c288.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortMsgKAT_r512c288.txt"; sourceTree = "<group>"; };
+		8BF5398C1816DE00001F2F5C /* ShortMsgKAT_r544c256.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortMsgKAT_r544c256.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortMsgKAT_r544c256.txt"; sourceTree = "<group>"; };
+		8BF5398D1816DE00001F2F5C /* ShortMsgKAT_r1344c256.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortMsgKAT_r1344c256.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortMsgKAT_r1344c256.txt"; sourceTree = "<group>"; };
+		8BF5398E1816DE00001F2F5C /* ShortMsgKAT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortMsgKAT.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortMsgKAT.txt"; sourceTree = "<group>"; };
+		8BF5398F1816DE00001F2F5C /* ShortTweet72KAT_0.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortTweet72KAT_0.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortTweet72KAT_0.txt"; sourceTree = "<group>"; };
+		8BF539901816DE00001F2F5C /* ShortTweet72KAT_224.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortTweet72KAT_224.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortTweet72KAT_224.txt"; sourceTree = "<group>"; };
+		8BF539911816DE00001F2F5C /* ShortTweet72KAT_256.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortTweet72KAT_256.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortTweet72KAT_256.txt"; sourceTree = "<group>"; };
+		8BF539921816DE00001F2F5C /* ShortTweet72KAT_384.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortTweet72KAT_384.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortTweet72KAT_384.txt"; sourceTree = "<group>"; };
+		8BF539931816DE00001F2F5C /* ShortTweet72KAT_512.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortTweet72KAT_512.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortTweet72KAT_512.txt"; sourceTree = "<group>"; };
+		8BF539941816DE00001F2F5C /* ShortTweet72KAT_r40c160.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortTweet72KAT_r40c160.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortTweet72KAT_r40c160.txt"; sourceTree = "<group>"; };
+		8BF539951816DE00001F2F5C /* ShortTweet72KAT_r128c272.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortTweet72KAT_r128c272.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortTweet72KAT_r128c272.txt"; sourceTree = "<group>"; };
+		8BF539961816DE00001F2F5C /* ShortTweet72KAT_r144c256.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortTweet72KAT_r144c256.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortTweet72KAT_r144c256.txt"; sourceTree = "<group>"; };
+		8BF539971816DE00001F2F5C /* ShortTweet72KAT_r256c544.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortTweet72KAT_r256c544.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortTweet72KAT_r256c544.txt"; sourceTree = "<group>"; };
+		8BF539981816DE00001F2F5C /* ShortTweet72KAT_r512c288.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortTweet72KAT_r512c288.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortTweet72KAT_r512c288.txt"; sourceTree = "<group>"; };
+		8BF539991816DE00001F2F5C /* ShortTweet72KAT_r544c256.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortTweet72KAT_r544c256.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortTweet72KAT_r544c256.txt"; sourceTree = "<group>"; };
+		8BF5399A1816DE00001F2F5C /* ShortTweet72KAT_r1344c256.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortTweet72KAT_r1344c256.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortTweet72KAT_r1344c256.txt"; sourceTree = "<group>"; };
+		8BF5399B1816DE00001F2F5C /* ShortTweet72KAT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ShortTweet72KAT.txt; path = "../../Library/Developer/Xcode/DerivedData/SYCS_659_-_Keccak-gkegopaccjsxbdfwuaukkkiwnvix/Build/Products/Debug/ShortTweet72KAT.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +174,8 @@
 		8BF539041816DD09001F2F5C = {
 			isa = PBXGroup;
 			children = (
+				8BF539721816DDB0001F2F5C /* KeccakTools */,
+				8BF5399C1816DE0E001F2F5C /* KeccakTools Testing */,
 				8BF5390F1816DD09001F2F5C /* SYCS 659 - Keccak */,
 				8BF5390E1816DD09001F2F5C /* Products */,
 			);
@@ -64,6 +196,122 @@
 				8BF539121816DD09001F2F5C /* SYCS_659___Keccak.1 */,
 			);
 			path = "SYCS 659 - Keccak";
+			sourceTree = "<group>";
+		};
+		8BF539721816DDB0001F2F5C /* KeccakTools */ = {
+			isa = PBXGroup;
+			children = (
+				8BF539191816DD68001F2F5C /* duplex.cpp */,
+				8BF5391A1816DD68001F2F5C /* duplex.h */,
+				8BF5391B1816DD68001F2F5C /* genKATShortMsg.cpp */,
+				8BF5391C1816DD68001F2F5C /* Keccak-f.cpp */,
+				8BF5391D1816DD68001F2F5C /* Keccak-f.h */,
+				8BF5391E1816DD68001F2F5C /* Keccak-f25LUT.cpp */,
+				8BF5391F1816DD68001F2F5C /* Keccak-f25LUT.h */,
+				8BF539201816DD68001F2F5C /* Keccak-fAffineBases.cpp */,
+				8BF539211816DD68001F2F5C /* Keccak-fAffineBases.h */,
+				8BF539221816DD68001F2F5C /* Keccak-fCodeGen.cpp */,
+				8BF539231816DD68001F2F5C /* Keccak-fCodeGen.h */,
+				8BF539241816DD68001F2F5C /* Keccak-fDCEquations.cpp */,
+				8BF539251816DD68001F2F5C /* Keccak-fDCEquations.h */,
+				8BF539261816DD68001F2F5C /* Keccak-fDCLC.cpp */,
+				8BF539271816DD68001F2F5C /* Keccak-fDCLC.h */,
+				8BF539281816DD68001F2F5C /* Keccak-fDisplay.cpp */,
+				8BF539291816DD68001F2F5C /* Keccak-fDisplay.h */,
+				8BF5392A1816DD68001F2F5C /* Keccak-fEquations.cpp */,
+				8BF5392B1816DD68001F2F5C /* Keccak-fEquations.h */,
+				8BF5392C1816DD68001F2F5C /* Keccak-fParity.cpp */,
+				8BF5392D1816DD68001F2F5C /* Keccak-fParity.h */,
+				8BF5392E1816DD68001F2F5C /* Keccak-fParityBounds.cpp */,
+				8BF5392F1816DD68001F2F5C /* Keccak-fParityBounds.h */,
+				8BF539301816DD68001F2F5C /* Keccak-fParts.cpp */,
+				8BF539311816DD68001F2F5C /* Keccak-fParts.h */,
+				8BF539321816DD68001F2F5C /* Keccak-fPositions.cpp */,
+				8BF539331816DD68001F2F5C /* Keccak-fPositions.h */,
+				8BF539341816DD68001F2F5C /* Keccak-fPropagation.cpp */,
+				8BF539351816DD68001F2F5C /* Keccak-fPropagation.h */,
+				8BF539361816DD68001F2F5C /* Keccak-fState.cpp */,
+				8BF539371816DD68001F2F5C /* Keccak-fState.h */,
+				8BF539381816DD68001F2F5C /* Keccak-fTrailCore3Rounds.cpp */,
+				8BF539391816DD68001F2F5C /* Keccak-fTrailCore3Rounds.h */,
+				8BF5393A1816DD68001F2F5C /* Keccak-fTrailCoreInKernelAtC.cpp */,
+				8BF5393B1816DD68001F2F5C /* Keccak-fTrailCoreInKernelAtC.h */,
+				8BF5393C1816DD68001F2F5C /* Keccak-fTrailCoreParity.cpp */,
+				8BF5393D1816DD68001F2F5C /* Keccak-fTrailCoreParity.h */,
+				8BF5393E1816DD68001F2F5C /* Keccak-fTrailCoreRows.cpp */,
+				8BF5393F1816DD68001F2F5C /* Keccak-fTrailCoreRows.h */,
+				8BF539401816DD68001F2F5C /* Keccak-fTrailExtension.cpp */,
+				8BF539411816DD68001F2F5C /* Keccak-fTrailExtension.h */,
+				8BF539421816DD68001F2F5C /* Keccak-fTrails.cpp */,
+				8BF539431816DD68001F2F5C /* Keccak-fTrails.h */,
+				8BF539441816DD68001F2F5C /* Keccak.cpp */,
+				8BF539451816DD68001F2F5C /* Keccak.h */,
+				8BF539461816DD68001F2F5C /* KeccakCrunchyContest.cpp */,
+				8BF539471816DD68001F2F5C /* KeccakCrunchyContest.h */,
+				8BF539481816DD68001F2F5C /* KeccakTools.dox */,
+				8BF539491816DD68001F2F5C /* padding.cpp */,
+				8BF5394A1816DD68001F2F5C /* padding.h */,
+				8BF5394B1816DD68001F2F5C /* progress.cpp */,
+				8BF5394C1816DD68001F2F5C /* progress.h */,
+				8BF5394D1816DD68001F2F5C /* sponge.cpp */,
+				8BF5394E1816DD68001F2F5C /* sponge.h */,
+				8BF5394F1816DD68001F2F5C /* spongetree.cpp */,
+				8BF539501816DD68001F2F5C /* spongetree.h */,
+				8BF539511816DD68001F2F5C /* transformations.cpp */,
+				8BF539521816DD68001F2F5C /* transformations.h */,
+				8BF539531816DD68001F2F5C /* translationsymmetry.h */,
+				8BF539541816DD68001F2F5C /* types.h */,
+			);
+			name = KeccakTools;
+			path = "SYCS 659 - Keccak";
+			sourceTree = "<group>";
+		};
+		8BF5399C1816DE0E001F2F5C /* KeccakTools Testing */ = {
+			isa = PBXGroup;
+			children = (
+				8BF539731816DE00001F2F5C /* DCKeccakF-25-trailcores.txt */,
+				8BF539741816DE00001F2F5C /* Eq-KeccakF-25-12.txt */,
+				8BF539751816DE00001F2F5C /* Eq-KeccakF-50-14.txt */,
+				8BF539761816DE00001F2F5C /* Eq-KeccakF-100-16.txt */,
+				8BF539771816DE00001F2F5C /* Eq-KeccakF-200-18.txt */,
+				8BF539781816DE00001F2F5C /* Eq-KeccakF-400-20.txt */,
+				8BF539791816DE00001F2F5C /* Eq-KeccakF-800-22.txt */,
+				8BF5397A1816DE00001F2F5C /* Eq-KeccakF-1600-24.txt */,
+				8BF5397B1816DE00001F2F5C /* Keccak-f-Chi-DCLC.txt */,
+				8BF5397C1816DE00001F2F5C /* KeccakF-25-12.LUT */,
+				8BF5397D1816DE00001F2F5C /* KeccakF-25-lambda.cache */,
+				8BF5397E1816DE00001F2F5C /* KeccakF-200-lambda.cache */,
+				8BF5397F1816DE00001F2F5C /* KeccakF-1600-32.macros */,
+				8BF539801816DE00001F2F5C /* KeccakF-1600-64.macros */,
+				8BF539811816DE00001F2F5C /* KeccakF-1600-simd64.macros */,
+				8BF539821816DE00001F2F5C /* ShortMsgKAT_0.txt */,
+				8BF539831816DE00001F2F5C /* ShortMsgKAT_224.txt */,
+				8BF539841816DE00001F2F5C /* ShortMsgKAT_256.txt */,
+				8BF539851816DE00001F2F5C /* ShortMsgKAT_384.txt */,
+				8BF539861816DE00001F2F5C /* ShortMsgKAT_512.txt */,
+				8BF539871816DE00001F2F5C /* ShortMsgKAT_r40c160.txt */,
+				8BF539881816DE00001F2F5C /* ShortMsgKAT_r128c272.txt */,
+				8BF539891816DE00001F2F5C /* ShortMsgKAT_r144c256.txt */,
+				8BF5398A1816DE00001F2F5C /* ShortMsgKAT_r256c544.txt */,
+				8BF5398B1816DE00001F2F5C /* ShortMsgKAT_r512c288.txt */,
+				8BF5398C1816DE00001F2F5C /* ShortMsgKAT_r544c256.txt */,
+				8BF5398D1816DE00001F2F5C /* ShortMsgKAT_r1344c256.txt */,
+				8BF5398E1816DE00001F2F5C /* ShortMsgKAT.txt */,
+				8BF5398F1816DE00001F2F5C /* ShortTweet72KAT_0.txt */,
+				8BF539901816DE00001F2F5C /* ShortTweet72KAT_224.txt */,
+				8BF539911816DE00001F2F5C /* ShortTweet72KAT_256.txt */,
+				8BF539921816DE00001F2F5C /* ShortTweet72KAT_384.txt */,
+				8BF539931816DE00001F2F5C /* ShortTweet72KAT_512.txt */,
+				8BF539941816DE00001F2F5C /* ShortTweet72KAT_r40c160.txt */,
+				8BF539951816DE00001F2F5C /* ShortTweet72KAT_r128c272.txt */,
+				8BF539961816DE00001F2F5C /* ShortTweet72KAT_r144c256.txt */,
+				8BF539971816DE00001F2F5C /* ShortTweet72KAT_r256c544.txt */,
+				8BF539981816DE00001F2F5C /* ShortTweet72KAT_r512c288.txt */,
+				8BF539991816DE00001F2F5C /* ShortTweet72KAT_r544c256.txt */,
+				8BF5399A1816DE00001F2F5C /* ShortTweet72KAT_r1344c256.txt */,
+				8BF5399B1816DE00001F2F5C /* ShortTweet72KAT.txt */,
+			);
+			name = "KeccakTools Testing";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,7 +365,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BF5395E1816DD68001F2F5C /* Keccak-fEquations.cpp in Sources */,
+				8BF539691816DD68001F2F5C /* Keccak-fTrailExtension.cpp in Sources */,
+				8BF539661816DD68001F2F5C /* Keccak-fTrailCoreInKernelAtC.cpp in Sources */,
+				8BF539631816DD68001F2F5C /* Keccak-fPropagation.cpp in Sources */,
+				8BF539591816DD68001F2F5C /* Keccak-fAffineBases.cpp in Sources */,
+				8BF5396B1816DD68001F2F5C /* Keccak.cpp in Sources */,
+				8BF539651816DD68001F2F5C /* Keccak-fTrailCore3Rounds.cpp in Sources */,
+				8BF5396F1816DD68001F2F5C /* sponge.cpp in Sources */,
+				8BF539711816DD68001F2F5C /* transformations.cpp in Sources */,
+				8BF5395D1816DD68001F2F5C /* Keccak-fDisplay.cpp in Sources */,
+				8BF539611816DD68001F2F5C /* Keccak-fParts.cpp in Sources */,
+				8BF539561816DD68001F2F5C /* genKATShortMsg.cpp in Sources */,
+				8BF539641816DD68001F2F5C /* Keccak-fState.cpp in Sources */,
+				8BF5396C1816DD68001F2F5C /* KeccakCrunchyContest.cpp in Sources */,
+				8BF5396A1816DD68001F2F5C /* Keccak-fTrails.cpp in Sources */,
+				8BF539601816DD68001F2F5C /* Keccak-fParityBounds.cpp in Sources */,
 				8BF539111816DD09001F2F5C /* main.cpp in Sources */,
+				8BF539671816DD68001F2F5C /* Keccak-fTrailCoreParity.cpp in Sources */,
+				8BF5395F1816DD68001F2F5C /* Keccak-fParity.cpp in Sources */,
+				8BF5396D1816DD68001F2F5C /* padding.cpp in Sources */,
+				8BF539571816DD68001F2F5C /* Keccak-f.cpp in Sources */,
+				8BF539581816DD68001F2F5C /* Keccak-f25LUT.cpp in Sources */,
+				8BF5396E1816DD68001F2F5C /* progress.cpp in Sources */,
+				8BF5395B1816DD68001F2F5C /* Keccak-fDCEquations.cpp in Sources */,
+				8BF5395A1816DD68001F2F5C /* Keccak-fCodeGen.cpp in Sources */,
+				8BF539681816DD68001F2F5C /* Keccak-fTrailCoreRows.cpp in Sources */,
+				8BF5395C1816DD68001F2F5C /* Keccak-fDCLC.cpp in Sources */,
+				8BF539551816DD68001F2F5C /* duplex.cpp in Sources */,
+				8BF539621816DD68001F2F5C /* Keccak-fPositions.cpp in Sources */,
+				8BF539701816DD68001F2F5C /* spongetree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
